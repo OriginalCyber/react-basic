@@ -11,14 +11,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   const design = { color: "red", textAlign: "center", fontSize: "1.5rem", }
 
-  const initData = [
-    { id: 1, title: "ค่าเช่าห้อง", amount: -3500 },
-    { id: 2, title: "ค่างวดรถ", amount: -4650 },
-    { id: 2, title: "เงินเดือน", amount: 6000 },
+  // const initData = [
+  //   { id: 1, title: "ค่าเช่าห้อง", amount: -3500 },
+  //   { id: 2, title: "ค่างวดรถ", amount: -4650 },
+  //   { id: 2, title: "เงินเดือน", amount: 6000 },
 
-  ]
+  // ]
 
-  const [items, setItems] = useState(initData)
+  const [items, setItems] = useState([])
 
   const [reportIncome, setReportIncome] = useState(0)
   const [reportExpense, setReportExpense] = useState(0)
